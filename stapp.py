@@ -3,7 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-pro",
     temperature=0.1,
-    api_key="AIzaSyCjEfE7uI88kJJifIzP66la4MPgO6h9TnE"
+    api_key="AIzaSyCzbg4K-P_iNGY8OlLsAqIKN29M9AauMu4"
 )
 question=st.text_input('enter question.')
 responce=llm.predict(question)
